@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/tae100k/TS_BlockChain/issues"
   },
-  "homepage": "https://github.com/tae100k/TS_BlockChain#readme"
+  "homepage": "https://github.com/tae100k/TS_BlockChain#readme",
+  "dependencies": {
+    "crypto-js": "^4.1.1",
+    "eslint-config-prettier": "^8.3.0"
+  }
 }
