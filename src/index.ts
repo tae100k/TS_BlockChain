@@ -1,5 +1,6 @@
 import * as CryptoJS from 'crypto-js';
 
+
 class BlockType {
     public index: number;
     public hash: string;
@@ -86,5 +87,7 @@ createNewBlock('second BLOCK');
 createNewBlock('third BLOCK');
 
 console.log(blockchain);
+
+
 
 export {};
