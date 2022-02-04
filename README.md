@@ -2,6 +2,7 @@ src에서 무언가를 바꿀 때마다 dist가 바뀐다.
 ```
     "start": "tsc-watch --onSuccess \" node dist/index.js\" ",
 ```
+
 **interface**
 - interface는 자바스크립트에 없는 내용이고, Object를 좀 더 예측 가능하기 쉽게 하기 위해서이다.
 ```
@@ -45,3 +46,12 @@ const JH = new Human(
 ```
 public : 권한 설정(자스는 신경쓰지 않음)
 constructor : 클래스로 객체를 만들때마다 호출되는 method
+```
+"compilerOptions": {
+        "module":"commonjs", //node.js를 평범하게 사용하고 다양한 걸 import하거나 export할 수 있게 만든다.
+        "target" : "ES2015", //어떤 버전의 자바스크립트로 컴파일 되고 싶은 지 적는다.
+        "sourceMap": true,
+        "outDir":"dist" //sourcemap을 하고 싶은 지
+    }, 
+```
+outDir : 모든 타입스크립트는 src, 컴파일된 것은 dist에 들어간다.

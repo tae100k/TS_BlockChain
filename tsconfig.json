@@ -2,10 +2,11 @@
 
 {
     "compilerOptions": {
-        "module":"CommonJS", //node.js를 평범하게 사용하고 다양한 걸 import하거나 export할 수 있게 만든다.
+        "module":"commonjs", //node.js를 평범하게 사용하고 다양한 걸 import하거나 export할 수 있게 만든다.
         "target" : "ES2015", //어떤 버전의 자바스크립트로 컴파일 되고 싶은 지 적는다.
-        "sourceMap": true, //sourcemap을 하고 싶은 지
-    }, "include" :  //컴파일 과정에서 포함할 파일의 배열
-        ["src/**/*", "dist/index.js"], 
+        "sourceMap": true,
+        "outDir":"dist" //sourcemap을 하고 싶은 지
+    }, 
+    "include" : ["src/**/*"], 
     "exclude":["node_modules"]
 }
