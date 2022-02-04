@@ -1,0 +1,23 @@
+{
+  "name": "ts_blockchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc-watch"
+  },
+  "devDependencies": {
+    "tsc-watch": "^1.0.17"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tae100k/TS_BlockChain.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tae100k/TS_BlockChain/issues"
+  },
+  "homepage": "https://github.com/tae100k/TS_BlockChain#readme"
+}
