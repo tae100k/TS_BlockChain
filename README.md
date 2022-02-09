@@ -18,11 +18,11 @@
 
 - 프로젝트 클론
 ```
-    git clone https://github.com/wanted-pre-onboading-10/sirloin-admin-page
+    git clone https://github.com/tae100k/TS_BlockChain
 ```
 - 프로젝트 디렉토리 들어가기
 ```
-    cd sirloin-admin-page
+    cd project
 ```
 - 패키지 설치 및 프로젝트 시작
 
